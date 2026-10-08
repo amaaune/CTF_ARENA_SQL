@@ -1,0 +1,10 @@
+-- =====================================================================
+--  PROJET SQL AVANCÉ — « CTF Arena »
+--  Script partie 1 : 
+--  Compatible MySQL 8+ / MariaDB 10.6+  —  rejouable (DROP IF EXISTS)
+--
+--  Situation de départ (volontairement mauvaise) :
+--    - seul root accède à la base (les comptes du projet sont supprimés) ;
+--    - aucune vue, aucun index secondaire sur la table volumineuse ;
+--    - aucune règle automatisée, aucun audit.
+-- =====================================================================
